@@ -1,0 +1,27 @@
+.project-links {
+  margin-top: 12px;
+  display: flex;
+  gap: 16px;
+}
+
+.project-links a {
+  text-decoration: none;
+  color: var(--accent-color);
+  font-weight: 500;
+  position: relative;
+}
+
+.project-links a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background: var(--accent-color);
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  transition: width 0.3s ease;
+}
+
+.project-links a:hover::after {
+  width: 100%;
+}
