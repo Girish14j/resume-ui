@@ -8,7 +8,7 @@
 .header-content {
   display: flex;
   align-items: center;
-  gap: $spacing-lg;
+  gap: var(--spacing-lg);
 }
 
 .profile-img {
