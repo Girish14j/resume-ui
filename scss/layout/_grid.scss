@@ -6,6 +6,12 @@
   gap: var(--spacing-lg);
 }
 
+.left-column {
+  position: sticky;
+  top: 32px;
+  align-self: start;
+}
+
 @media (max-width: 768px) {
   .grid {
     grid-template-columns: 1fr;
