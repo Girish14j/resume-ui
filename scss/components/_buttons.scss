@@ -8,21 +8,27 @@
 }
 
 .project-links a {
+  color: var(--heading-color);   // ⬅️ normal text color
   text-decoration: none;
-  color: var(--accent-color);
   font-weight: 500;
   position: relative;
+  padding-bottom: 2px;
+  transition: color 0.2s ease;
 }
 
 .project-links a::after {
   content: "";
-  width: 0;
-  height: 2px;
-  background: var(--accent-color);
   position: absolute;
   left: 0;
-  bottom: -4px;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--accent-color);
   transition: width 0.3s ease;
+}
+
+.project-links a:hover {
+  color: var(--accent-color);
 }
 
 .project-links a:hover::after {
