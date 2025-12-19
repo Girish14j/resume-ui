@@ -1,12 +1,14 @@
 @use "variables" as *;
 
 body {
-  font-family: $font-main;
-  color: $text-color;
-  background-color: $bg-color;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
   line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 h1, h2, h3 {
-  color: $primary-color;
+  color: var(--heading-color);
 }
+

@@ -12,6 +12,10 @@
   <header class="header">
     <div class="container header-content">
       <img src="assets/images/profile.jpg" alt="Profile" class="profile-img" />
+      <button class="theme-toggle" id="themeToggle">
+        🌙 Dark Mode
+      </button>
+
 
       <div class="header-info">
         <h1 class="name">Girish Joshi</h1>
@@ -88,6 +92,20 @@
       </section>
 
     </section>
+    <script>
+    const toggleBtn = document.getElementById("themeToggle");
+    toggleBtn.addEventListener("click", () => {
+      const theme = document.body.getAttribute("data-theme");
+      if (theme === "dark") {
+        document.body.removeAttribute("data-theme");
+        toggleBtn.textContent = "🌙 Dark Mode";
+      } else {
+        document.body.setAttribute("data-theme", "dark");
+        toggleBtn.textContent = "☀️ Light Mode";
+      }
+    });
+</script>
+
 
   </main>
 

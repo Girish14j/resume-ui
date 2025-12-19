@@ -1,14 +1,17 @@
-$primary-color: #1f2937;
-$secondary-color: #4b5563;
-$accent-color: #2563eb;
+:root {
+  --bg-color: #f9fafb;
+  --card-bg: #ffffff;
+  --text-color: #111827;
+  --heading-color: #1f2937;
+  --accent-color: #2563eb;
+  --border-color: #e5e7eb;
+}
 
-$bg-color: #f9fafb;
-$text-color: #111827;
-
-$font-main: 'Segoe UI', sans-serif;
-
-$spacing-sm: 8px;
-$spacing-md: 16px;
-$spacing-lg: 32px;
-
-$border-radius: 8px;
+[data-theme="dark"] {
+  --bg-color: #0f172a;
+  --card-bg: #1e293b;
+  --text-color: #e5e7eb;
+  --heading-color: #f8fafc;
+  --accent-color: #38bdf8;
+  --border-color: #334155;
+}
