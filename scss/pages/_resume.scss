@@ -1,0 +1,23 @@
+@use "../base/variables" as *;
+.header-info .name {
+  margin-bottom: 4px;
+}
+
+.header-info .role {
+  margin-bottom: 4px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.header-info .location {
+  margin-bottom: 8px;
+  opacity: 0.8;
+}
+
+.header-info .contact {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 14px;
+}
