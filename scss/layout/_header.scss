@@ -8,10 +8,8 @@
 
 .header-content {
   display: flex;
-  flex-direction: column;        // ⬅️ stack vertically
-  align-items: center;           // ⬅️ center horizontally
-  text-align: center;            // ⬅️ center text
-  gap: 12px;                     // controlled spacing
+  align-items: center;          // vertical alignment
+  gap: 32px;                    // space between image & text
 }
 
 .profile-img {
@@ -19,5 +17,5 @@
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 8px;
+  flex-shrink: 0;               // image never shrinks
 }

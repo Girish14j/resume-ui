@@ -1,6 +1,14 @@
 @use "../base/variables" as *;
+
+
+.header-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;     // vertical centering
+}
+
 .header-info .name {
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
 .header-info .role {
