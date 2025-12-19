@@ -1,0 +1,48 @@
+resume-ui/
+│
+├── index.html
+├── README.md
+├── screenshots/
+│   ├── desktop.png
+│   └── mobile.png
+│
+├── assets/
+│   ├── images/
+│   │   └── profile.jpg
+│   ├── icons/
+│   │   └── icons.svg
+│   └── fonts/
+│
+├── css/
+│   └── main.css        (compiled output)
+│
+└── scss/
+    ├── main.scss       (entry point)
+    │
+    ├── base/
+    │   ├── _reset.scss
+    │   ├── _typography.scss
+    │   └── _variables.scss
+    │
+    ├── layout/
+    │   ├── _container.scss
+    │   ├── _header.scss
+    │   ├── _grid.scss
+    │   └── _footer.scss
+    │
+    ├── components/
+    │   ├── _section.scss
+    │   ├── _card.scss
+    │   ├── _badge.scss
+    │   ├── _buttons.scss
+    │   └── _links.scss
+    │
+    ├── pages/
+    │   └── _resume.scss
+    │
+    ├── themes/
+    │   └── _theme.scss
+    │
+    └── utils/
+        ├── _mixins.scss
+        └── _helpers.scss
