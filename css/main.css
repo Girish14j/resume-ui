@@ -71,6 +71,12 @@ h1, h2, h3 {
   gap: var(--spacing-lg);
 }
 
+.left-column {
+  position: sticky;
+  top: 32px;
+  align-self: start;
+}
+
 @media (max-width: 768px) {
   .grid {
     grid-template-columns: 1fr;
@@ -89,6 +95,16 @@ h1, h2, h3 {
   width: 40px;
   height: 2px;
   background: var(--accent-color);
+}
+
+.section p {
+  margin-bottom: 16px;
+}
+
+.section h4 {
+  margin-bottom: 16px;
+  font-size: 1.2em;
+  font-weight: 600;
 }
 
 .card {
@@ -131,7 +147,7 @@ h1, h2, h3 {
 
 .badges {
   display: flex;
-  gap: 8px;
+  gap: 14px;
 }
 
 .badge:hover {
