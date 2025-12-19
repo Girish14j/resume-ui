@@ -1,0 +1,9 @@
+.section {
+  margin-bottom: $spacing-lg;
+}
+
+.section h2 {
+  margin-bottom: $spacing-md;
+  border-bottom: 2px solid $accent-color;
+  display: inline-block;
+}
