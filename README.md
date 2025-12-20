@@ -2,7 +2,7 @@
 
 ## Candidate Details
 - **Name:** Girish Joshi  
-- **Role Applied For:** Front-End / Full Stack Web Developer  
+- **Role Applied For:** Front-End Developer  
 - **Location:** Pune, Maharashtra, India  
 
 ---
@@ -64,22 +64,22 @@ A **single-page Resume UI** containing the following sections:
 ```
 resume-ui/
 │
-├── index.html              # Main resume page (content & structure)
-├── README.md               # Project documentation
+├── index.html              
+├── README.md               
 │
 ├── assets/
 │   └── images/
-│       └── profile.jpg     # Profile image
+│       └── profile.jpg     
 │
 ├── css/
-│   └── main.css            # Compiled CSS output
+│   └── main.css            
 │
 └── scss/
-    ├── base/               # Reset, variables, typography
-    ├── layout/             # Header, grid, container
-    ├── components/         # Cards, badges, sections
-    ├── pages/              # Resume-specific styles
-    └── main.scss           # SCSS entry file
+    ├── base/               
+    ├── layout/             
+    ├── components/         
+    ├── pages/              
+    └── main.scss           
 ```
 
 ---
