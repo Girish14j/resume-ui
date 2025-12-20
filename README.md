@@ -130,7 +130,7 @@ All SCSS files are compiled into a single CSS file (`css/main.css`) for browser 
 ### View Locally
 1. Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/resume-ui.git
+git clone https://github.com/<girish14j>/resume-ui.git
 ```
 
 2. Open `index.html` in any modern browser.
@@ -145,7 +145,7 @@ sass scss/main.scss css/main.css
 ## Live Hosted URL
 
 GitHub Pages Link:
-https://<your-username>.github.io/resume-ui/
+ https://girish14j.github.io/resume-ui/
 
 ---
 
@@ -159,33 +159,4 @@ screenshots/
 └── mobile.png
 ```
 
----
 
-## Restrictions Followed
-
-- No resume templates or themes used
-- No code generators
-- No AI tools used to generate code
-- All code is handwritten and explainable
-
----
-
-## Submission Details
-
-- **Repository:** Public GitHub repository
-- **Live URL:** GitHub Pages
-- **Screenshots:** Included
-- **Submitted To:** accounts@plati1.com
-
----
-
-## Notes for Reviewers
-
-- Focus is on UI quality and CSS architecture
-- SCSS structure follows real-world frontend practices
-- Code is clean, readable, and maintainable
-- Can explain and modify code live
-
----
-
-Thank you for reviewing my submission.
