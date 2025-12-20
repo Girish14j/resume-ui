@@ -158,5 +158,7 @@ screenshots/
 ├── desktop.png
 └── mobile.png
 ```
+<img width="1894" height="999" alt="image" src="https://github.com/user-attachments/assets/e2b5dca7-a196-486c-9da2-02729f287129" />
+
 
 
